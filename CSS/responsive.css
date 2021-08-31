@@ -1,0 +1,85 @@
+@media only screen and (max-width: 46.1875em) {
+    body
+    {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .container {
+        margin: 10px;
+        margin-top: 5em;
+        min-width: 200px;
+    }
+    
+    .card {
+        flex-direction: column-reverse;
+        border-radius: 10px;
+        width: 300px;
+    }
+
+    .card .card-content {
+        padding: 1em;
+        width: 300px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .card-content h1
+    {
+        text-align: center;
+        width: 234px;
+        font-size: 27px;
+        margin: 16px;
+        margin-bottom: 26px;
+    }
+
+    .card-content p
+    {
+        font-size: 1.1rem;
+        margin-bottom: 2em;
+        line-height: 1.75em;
+        text-align: center;
+    }
+
+    .card ul
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-content ul li {
+        margin-bottom: 2em;
+    }
+
+    .card-content ul p
+    {
+        font-size: 1.05rem;
+    }
+
+    .card-content ul h2
+    {
+        font-size: 2rem;
+        margin-bottom: 0.25em;
+    }
+
+
+    .card .card-img {
+        background: url(/images/image-header-mobile.jpg) no-repeat;
+        background-size: contain;
+        height: 220px;
+        border-radius: 10px 10px 10px 0;
+    }
+
+    .overlay, 
+    .overlay2
+    {
+        width: 300px;
+        border-radius: 10px 10px 0 0;
+
+    }
+
+    .attribution
+    {
+        margin-top: 20px;
+    }
+}

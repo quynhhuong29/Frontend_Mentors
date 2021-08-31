@@ -42,53 +42,66 @@ body {
 }
 
 .card-content {
-    padding: 3em;
+    padding: 4em 6em 4em 4em;
 }
 
 .card-content h1 {
     font-family: 'Lexend Deca', sans-serif;
     margin-bottom: 26px;
-    padding-right: 20px;
     width: 400px;
     font-weight: 700;
+    font-size: 2.25rem;
 }
 
 .card-content span {
     color: var(--prim-violet);
 }
 
-.card-content p {
-    padding-right: 80px;
+.card-content ul p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--neu-more-trans-white);
+    text-transform: uppercase;
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.card-content > p {
+    margin-bottom: 4em;
+    line-height: 1.5;
     color: var(--neu-trans-white);
 }
 
 .card-content ul {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
-    
+    font-size: 15px;
+    padding-right: 26px;
+
 }
 
 .card-content ul li {
     list-style-type: none;
+
 }
 
 .card .card-img {
     background: url(/images/image-header-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 400px;
+    min-width: 475px;
     border-radius: 0 10px 10px 0;
 }
 
 .overlay {
     background: var(--bg-violet);
     height: 100%;
+    border-radius: 0 10px 10px 0;
 }
 
 .overlay2 {
     background: var(--bg-light-violet);
     height: 100%;
+    border-radius: 0 10px 10px 0;
 }
 /* Footer */
 .attribution { 
